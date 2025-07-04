@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem; /* Removed vertical padding to enforce exact height */
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  height: 50px; /* constant height */
+  margin: 0 20px;
+}
+
+
+.menu-btn,
+.search-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.logo {
+    height: 75%;
+}
+
+.title {
+    color: black;
+    font-size: 0.85vw;
+    font-weight: normal;
+}
+
+.title strong {
+    font-weight: bold;
+}
+
+.language {
+    font-size: 0.85vw;
+    cursor: pointer;
+}
+
+.hero-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.hero-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1762 / 910;
+}
+
+.upisi-btn {
+    width: 10%;
+    height: 6%;
+    position: absolute;
+    right: 9%;
+    top: 44%;
+    transform: translateY(-50%);
+    background-color: rgb(0, 88, 128);
+    color: white;
+    border: 0.15vw solid white;
+    padding: 10px 20px;
+    font-size: 0.85vw;
+    cursor: pointer;
+}
+
+.hero-text {
+    font-size: 0.85vw;
+    position: absolute;
+    left: 6%;
+    top: 73%;
+    color: white;
+    max-width: 60%;
+}
+
+.hero-text h1 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.hero-text p {
+    margin: 5px 0 0 0;
+    line-height: 1.3;
+}
