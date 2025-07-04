@@ -26,15 +26,17 @@ body {
 }
 
 .toolbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-  padding: 0 1rem; /* Removed vertical padding to enforce exact height */
-  background-color: white;
-  border-bottom: 1px solid #ccc;
-  height: 50px; /* constant height */
-  margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+    /* Removed vertical padding to enforce exact height */
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    height: 8vh;
+    /* constant height */
+    margin: 0 1vw;
 }
 
 
@@ -43,6 +45,7 @@ body {
     background: none;
     border: none;
     cursor: pointer;
+    height: 75%;
 }
 
 .logo {
