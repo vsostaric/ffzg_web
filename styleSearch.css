@@ -1,0 +1,20 @@
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+.search-input {
+  position: absolute;
+  top: 4vw;
+  left: -17vw;
+  width: 18vw; 
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 0.85vw;
+  z-index: 1000;
+  background: white;
+}
+
+.search-input.hidden {
+  display: none;
+}

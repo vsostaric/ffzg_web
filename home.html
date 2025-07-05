@@ -9,12 +9,14 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="styleHamburger.css" />
   <link rel="stylesheet" href="styleLanguage.css" />
-  <link rel="stylesheet" href="styleFooter.css" />
+  <link rel="stylesheet" href="styleSearch.css" />
   <link rel="stylesheet" href="styleNews.css" />
   <link rel="stylesheet" href="styleNewsPagination.css" />
+  <link rel="stylesheet" href="styleFooter.css" />
   <script src="news-pagination.js"></script>
   <script src="menu.js"></script>
   <script src="language.js"></script>
+  <script src="search.js"></script>
 </head>
 
 <body>
@@ -33,9 +35,13 @@
         <div class="language-option">EN</div>
       </div>
     </div>
-    <button class="search-btn" aria-label="Search">
-      <i class="fas fa-search"></i>
-    </button>
+    <div class="search-container">
+      <button class="search-btn" aria-label="Search">
+        <i class="fas fa-search"></i>
+      </button>
+      <input type="text" class="search-input hidden" placeholder="Search..." />
+    </div>
+
   </nav>
 
   <div class="hamburger-menu hidden">
