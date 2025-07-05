@@ -8,11 +8,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="styleHamburger.css" />
+  <link rel="stylesheet" href="styleLanguage.css" />
   <link rel="stylesheet" href="styleFooter.css" />
   <link rel="stylesheet" href="styleNews.css" />
   <link rel="stylesheet" href="styleNewsPagination.css" />
   <script src="news-pagination.js"></script>
   <script src="menu.js"></script>
+  <script src="language.js"></script>
 </head>
 
 <body>
@@ -24,7 +26,13 @@
     <span class="title">
       Sveučilište u Zagrebu <strong>FILOZOFSKI FAKULTET</strong>
     </span>
-    <span class="language">HR</span>
+    <div class="language-dropdown">
+      <span class="language language-selected">HR</span>
+      <div class="language-options hidden">
+        <div class="language-option">HR</div>
+        <div class="language-option">EN</div>
+      </div>
+    </div>
     <button class="search-btn" aria-label="Search">
       <i class="fas fa-search"></i>
     </button>

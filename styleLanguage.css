@@ -1,0 +1,44 @@
+.language {
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+
+.language-dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.language-selected {
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+.language-options {
+    font-size: 1.2vw;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.language-option {
+    padding: 0.5rem 1rem;
+}
+
+.language-option:hover {
+    background: black;
+    color: white;
+}
+
+.language-options.hidden {
+    display: none;
+}
+
+.language-options.visible {
+    display: block;
+}

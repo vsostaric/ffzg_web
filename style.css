@@ -60,11 +60,6 @@ body {
     font-weight: bold;
 }
 
-.language {
-    font-size: 1.2vw;
-    cursor: pointer;
-}
-
 .hero-container {
     position: relative;
     display: inline-block;
