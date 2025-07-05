@@ -36,12 +36,17 @@
   color: white;
 }
 
-/* Chevron icon only for items with submenu */
+/* Chevron-down by default */
 .hamburger-menu li:has(ul) > a::after {
-  content: "\f054"; /* FontAwesome chevron-right */
+  content: "\f078"; /* FontAwesome chevron-down */
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   float: right;
+}
+
+/* Chevron-right when active (hovered) */
+.hamburger-menu li:hover:has(ul) > a::after {
+  content: "\f054"; /* FontAwesome chevron-right */
 }
 
 /* Submenus (second and third level) */
