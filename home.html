@@ -7,10 +7,12 @@
   <title>Filozofski Fakultet Toolbar</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="styleHamburger.css" />
   <link rel="stylesheet" href="styleFooter.css" />
   <link rel="stylesheet" href="styleNews.css" />
   <link rel="stylesheet" href="styleNewsPagination.css" />
   <script src="news-pagination.js"></script>
+  <script src="menu.js"></script>
 </head>
 
 <body>
@@ -27,6 +29,29 @@
       <i class="fas fa-search"></i>
     </button>
   </nav>
+
+  <div class="hamburger-menu hidden">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li>
+        <a href="#">About</a>
+        <ul>
+          <li><a href="#">Mission</a></li>
+          <li>
+            <a href="#">Team</a>
+            <ul>
+              <li><a href="#">Professors</a></li>
+              <li><a href="#">Researchers</a></li>
+            </ul>
+          </li>
+          <li><a href="#">History</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+
   <div class="hero-container">
     <img src="images/Screenshot 2025-05-26 at 15.56.18.png" alt="Hero Image" class="hero-image" />
     <button class="upisi-btn"><strong>UPISI</strong></button>
