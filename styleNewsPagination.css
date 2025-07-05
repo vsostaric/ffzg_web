@@ -1,7 +1,7 @@
 .news-pagination-controls {
   display: flex;
   align-items: center;
-  margin-top: 4rem; /* doubled spacing from news-footer */
+  margin: 4rem 0;
   position: relative;
 }
 
