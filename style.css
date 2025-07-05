@@ -33,7 +33,7 @@ body {
     padding: 0 1rem;
     background-color: white;
     border-bottom: 1px solid #ccc;
-    height: 8vh;
+    height: 11vh;
     margin: 0 1vw;
 }
 
@@ -47,12 +47,12 @@ body {
 }
 
 .logo {
-    height: 75%;
+    height: 55%;
 }
 
 .title {
     color: black;
-    font-size: 0.85vw;
+    font-size: 1.2vw;
     font-weight: normal;
 }
 
@@ -61,7 +61,7 @@ body {
 }
 
 .language {
-    font-size: 0.85vw;
+    font-size: 1.2vw;
     cursor: pointer;
 }
 
