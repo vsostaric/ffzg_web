@@ -1,0 +1,92 @@
+.hamburger-menu {
+  position: absolute;
+  top: 0px;
+  left: 66px;
+  width: 450px;
+  background: white;
+  border: 2px solid #ccc;
+  display: none;
+  flex-direction: column;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hamburger-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hamburger-menu li {
+  position: relative;
+}
+
+.hamburger-menu a {
+  display: block;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  line-height: 44px;
+}
+
+.hamburger-menu li:hover {
+  background: black;
+}
+
+.hamburger-menu li:hover>a {
+  color: white;
+}
+
+/* Chevron-down by default */
+.hamburger-menu li:has(ul)>a::after {
+  content: "\f078";
+  /* FontAwesome chevron-down */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  float: right;
+}
+
+
+/* Chevron-right when active (hovered) */
+.hamburger-menu li:hover:has(ul)>a::after {
+  content: "\f054";
+  /* FontAwesome chevron-right */
+}
+
+/* Submenus (second and third level) */
+.hamburger-menu li ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  display: none;
+  background: white;
+  border: 1px solid #ccc;
+  min-width: 400px;
+  z-index: 1000;
+}
+
+.hamburger-menu li:hover>ul {
+  display: block;
+}
+
+.hamburger-menu li ul li a {
+  color: black;
+}
+
+/* Submenu item hover */
+.hamburger-menu li ul li:hover {
+  background: black;
+}
+
+.hamburger-menu li ul li:hover>a {
+  color: white;
+}
+
+.hamburger-menu.hidden {
+  display: none;
+}
+
+.hamburger-menu.visible {
+  display: flex;
+}

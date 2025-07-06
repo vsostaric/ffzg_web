@@ -1,0 +1,43 @@
+.news-pagination-controls {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 210px;
+}
+
+.dots {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.dot {
+  width: 16px;
+  /* small dot */
+  height: 16px;
+  border: 2px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: black;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.previous-arrow {
+  margin-right: auto;
+}
+
+.next-arrow {
+  margin-left: auto;
+}
+
+.arrow img {
+  width: 16px;
+  height: 46px;
+}
