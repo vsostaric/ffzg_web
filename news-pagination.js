@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const allCards = Array.from(newsItems.children);
   const dots = document.querySelectorAll('.dot');
   const nextArrow = document.querySelector('.next-arrow');
+  const previousArrow = document.querySelector('.previous-arrow');
   const itemsPerPage = 3;
   let currentPage = 0;
 
@@ -58,6 +59,11 @@ document.addEventListener("DOMContentLoaded", function() {
   nextArrow.addEventListener('click', () => {
     const next = (currentPage + 1) % totalPages;
     showPage(next, 'right');
+  });
+
+  previousArrow.addEventListener('click', () => {
+    const prev = (currentPage - 1 + totalPages) % totalPages;
+    showPage(prev, 'left');
   });
 
   // Initialize first page

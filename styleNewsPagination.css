@@ -1,17 +1,13 @@
 .news-pagination-controls {
   display: flex;
   align-items: center;
-  margin: 4rem 0;
   position: relative;
+  height: 105px;
 }
 
 .dots {
   display: flex;
   gap: 0.8rem;
-  position: absolute;
-  left: 40%;
-  transform: translateX(-50%);
-  /* anchor to center of dots container */
 }
 
 .dot {
