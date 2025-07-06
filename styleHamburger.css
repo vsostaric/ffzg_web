@@ -28,7 +28,7 @@
   padding: 0.5rem 1rem;
   text-decoration: none;
   color: black;
-  font-size: 7px;
+  font-size: 10px;
   line-height: 22px;
 }
 
@@ -48,6 +48,7 @@
   font-weight: 900;
   float: right;
 }
+
 
 /* Chevron-right when active (hovered) */
 .hamburger-menu li:hover:has(ul)>a::after {
