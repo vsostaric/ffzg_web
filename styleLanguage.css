@@ -1,5 +1,5 @@
 .language {
-    font-size: 1.2vw;
+    font-size: 7px;
     cursor: pointer;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .language-options {
-    font-size: 1.2vw;
+    font-size: 7px;
     position: absolute;
     top: 100%;
     left: 0;

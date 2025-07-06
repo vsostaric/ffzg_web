@@ -22,9 +22,9 @@
 <body>
   <nav class="toolbar">
     <button class="menu-btn" aria-label="Menu">
-      <i class="fas fa-bars"></i>
+      <img src="images/burger.svg" alt="Filozofski Fakultet Burger menu" />
     </button>
-    <img src="images/Logotip-standardni-2025.gif" alt="Filozofski Fakultet Logo" class="logo" />
+    <img src="images/logo.svg" alt="Filozofski Fakultet Logo" class="logo" />
     <span class="title">
       Sveučilište u Zagrebu <strong>FILOZOFSKI FAKULTET</strong>
     </span>
@@ -37,14 +37,16 @@
     </div>
     <div class="search-container">
       <button class="search-btn" aria-label="Search">
-        <i class="fas fa-search"></i>
+        <img src="images/looking.svg" alt="Filozofski Fakultet Search" />
       </button>
       <input type="text" class="search-input hidden" placeholder="Search..." />
     </div>
 
   </nav>
 
-  <div class="hamburger-menu hidden">
+  <div class="hero-container">
+    <img src="images/library.png" alt="Hero Image" class="hero-image" />
+    <div class="hamburger-menu hidden">
     <ul>
       <li><a href="#">NASLOVNICA</a></li>
       <li><a href="#">O NAMA</a></li>
@@ -187,30 +189,25 @@
       <li><a href="#">KONTAKTI</a></li>
     </ul>
   </div>
-
-
-  <div class="hero-container">
-    <img src="images/Screenshot 2025-05-26 at 15.56.18.png" alt="Hero Image" class="hero-image" />
     <button class="upisi-btn"><strong>UPISI</strong></button>
-  </div>
-  <div class="hero-text">
-    <h1>FILOZOFSKI FAKULTET</h1>
-    <p>je nacionalni lider i globalni partner u stvaranju <br> i prenošenju znanja koja oblikuju humanije društvo.</p>
+    <div class="hero-text">
+      <h1>FILOZOFSKI FAKULTET</h1>
+      <p>je nacionalni lider i globalni partner u stvaranju <br> i prenošenju znanja koja oblikuju humanije društvo.</p>
+    </div>
   </div>
 
-  <section class="four-row">
+  <section class="news-container">
     <div class="left-image">
       <div class="left-content">
         <h2>VIJESTI</h2>
-        <img src="images/vijestiLogo.png" alt="Logo">
+        <img src="images/vijestiLogo.svg" alt="Logo">
       </div>
     </div>
 
     <div class="news">
       <div class="news-items">
         <div class="news-card">
-          <img src="images/depositphotos_542529790-stock-photo-beautiful-indian-university-student-concept.jpg"
-            alt="News 1">
+          <img src="images/student.png" alt="News 1">
           <p><b>Dijana Šobota</b>, studentica Doktorskog studija informacijskih i komunikacijskih znanosti, odbitnija je
             ugledne međunarodne nagrade Ross Todd Award</p>
         </div>
@@ -219,20 +216,20 @@
           <p>Dodatni izbori za <b>Studentski zbor Filozofskog fakulteta</b> Sveučilišta u Zagrebu</p>
         </div>
         <div class="news-card">
-          <img src="images/profa.jpg" alt="News 3">
+          <img src="images/profa.png" alt="News 3">
           <p>Posljedni ispraćaj profesora emeritusa <b>Milenka Popović</b></p>
         </div>
 
         <div class="news-card">
-          <img src="images/Screenshot 2025-06-06 at 13.59.20.png" alt="News 4">
+          <img src="images/dan_projekata.png" alt="News 4">
           <p>Održan <b>Dan projekata</b> Hrvatske zaklade za znanost Filozofskog fakulteta u Zagrebu.</p>
         </div>
         <div class="news-card">
-          <img src="images/Screenshot 2025-06-06 at 14.45.45.png" alt="News 5">
+          <img src="images/stanko_vraz.png" alt="News 5">
           <p>Znanstveni skup Romanizam <b>Stanka Vraza</b>.</p>
         </div>
         <div class="news-card">
-          <img src="images/Steven-Gouveia.jpg" alt="News 6">
+          <img src="images/s_s_gouveia.png" alt="News 6">
           <p><b>Steven S. Gouveia</b>, predavanje "Etički imperativ umjetne inteligencije u zdravstvu".</p>
         </div>
 
@@ -241,7 +238,7 @@
           <p>Rezultati natječaja za <b>Erasmus+ studijski boravak</b> za ak. god. 2025/26.</p>
         </div>
         <div class="news-card">
-          <img src="images/erasmus-mobiliti.jpg" alt="News 8">
+          <img src="images/erasmus-mobiliti.png" alt="News 8">
           <p>Natječaj za <b>Erasmus+ kratku mobilnost doktorskih studenata</b> za STUDIJSKO BORAVAK (SMS)</p>
         </div>
         <div class="news-card">
@@ -251,8 +248,7 @@
         </div>
 
         <div class="news-card">
-          <img src="images/depositphotos_542529790-stock-photo-beautiful-indian-university-student-concept.jpg"
-            alt="News 10">
+          <img src="images/student.png" alt="News 10">
           <p><b>Dijana Šobota</b>, studentica Doktorskog studija informacijskih i komunikacijskih znanosti, odbitnija je
             ugledne međunarodne nagrade Ross Todd Award</p>
         </div>
@@ -261,7 +257,7 @@
           <p>Dodatni izbori za <b>Studentski zbor Filozofskog fakulteta</b> Sveučilišta u Zagrebu</p>
         </div>
         <div class="news-card">
-          <img src="images/profa.jpg" alt="News 12">
+          <img src="images/profa.png" alt="News 12">
           <p>Posljedni ispraćaj profesora emeritusa <b>Milenka Popović</b></p>
         </div>
       </div>
@@ -269,16 +265,18 @@
         <hr class="news-line">
         <button class="see-more">vidi više</button>
       </div>
-
       <div class="news-pagination-controls">
+        <button class="arrow previous-arrow">
+          <img src="images/arrow_left.svg" alt="Logo">
+        </button>
         <div class="dots">
           <span class="dot active" data-page="0"></span>
           <span class="dot" data-page="1"></span>
           <span class="dot" data-page="2"></span>
           <span class="dot" data-page="3"></span>
         </div>
-        <button class="next-arrow">
-          <i class="fas fa-chevron-right"></i>
+        <button class="arrow next-arrow">
+          <img src="images/arrow_right.svg" alt="Logo">
         </button>
       </div>
     </div>
@@ -316,7 +314,7 @@
         </div>
         <div class="logo-row">
           <img src="images/unic_logo-samo znak (2).png" alt="Logo 2">
-          <img src="images/Logotip-standardni-2025.gif" alt="Logo 3">
+          <img src="images/logo.svg" alt="Logo 3">
         </div>
       </div>
     </div>

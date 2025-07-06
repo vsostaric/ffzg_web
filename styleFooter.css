@@ -4,6 +4,7 @@
   background-size: cover;
   background-position: center;
   padding: 2rem;
+  border-top: 1px solid black;
 }
 
 .footer-container {
