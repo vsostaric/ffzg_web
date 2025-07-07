@@ -18,11 +18,27 @@
 
 .footer-column {
     font-size: 16px;
-    width: 433px;
+}
+
+.footer-column.first {
+    width: 400px;
+}
+
+.footer-column.second {
+    position: relative;
+    width: 478px;
+    left: 39px;
+}
+
+.footer-column.third {
+    width: 478px;
+    left: 30px;
+    position: relative;
 }
 
 .logos {
     margin-top: 25px;
+    width: 433px;
 }
 
 .footer-column.logos .logo-row {
@@ -57,16 +73,16 @@
 }
 
 .footer-column a {
-  text-decoration: none;
-  color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 .footer-column a:visited {
-  color: inherit; 
+    color: inherit;
 }
 
 .footer-column a:hover {
-  color: blue; 
+    color: blue;
 }
 
 .footer-column a:hover {
