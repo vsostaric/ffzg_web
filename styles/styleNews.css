@@ -105,11 +105,10 @@
 }
 
 .news-card p {
-  margin-top: 0.5rem;
+  margin-top: 15px;
   text-align: left;
   font-size: 16px;
   line-height: 20px;
-  width: 85%;
   max-width: 600px;
 }
 
