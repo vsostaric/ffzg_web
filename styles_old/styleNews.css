@@ -49,7 +49,7 @@
 .news-items {
   flex: 1;
   display: flex;
-  gap: 1rem;
+  gap: 91px;
   justify-content: space-between;
 }
 
