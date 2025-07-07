@@ -57,7 +57,16 @@
 }
 
 .footer-column a {
-    text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-column a:visited {
+  color: inherit; 
+}
+
+.footer-column a:hover {
+  color: blue; 
 }
 
 .footer-column a:hover {
