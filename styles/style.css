@@ -123,3 +123,7 @@ body {
     font-size: 28px;
     line-height: 28px;
 }
+
+.hidden {
+    visibility: hidden;
+}
