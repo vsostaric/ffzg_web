@@ -88,8 +88,8 @@
 
 .footer-social {
     display: flex;
-    gap: 1.5rem;
-    margin-top: -4rem;
+    margin-left: 62px;
+    gap: 18px;
 }
 
 .footer-social a {
