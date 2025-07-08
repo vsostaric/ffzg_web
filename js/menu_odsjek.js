@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const menuBtn = document.querySelector('.o-odsjeku');
-    const hamburgerMenu = document.querySelector('.o-odsjeku-menu');
+    const menuBtn = document.querySelector('#department-menu-item-o-odsjeku');
+    const hamburgerMenu = document.querySelector('.odsjek-menu');
 
     menuBtn.addEventListener('mouseenter', () => {
         hamburgerMenu.classList.add('visible');

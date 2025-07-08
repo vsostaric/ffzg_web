@@ -1,0 +1,96 @@
+.odsjek-menu {
+  margin-left: 589px;
+  top: 0px;
+  left: 66px;
+  width: 340px;
+  background: white;
+  border: 2px solid #ccc;
+  flex-direction: column;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.odsjek-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.odsjek-menu li {
+  position: relative;
+}
+
+.odsjek-menu a {
+  display: block;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.odsjek-menu li:hover {
+  background: black;
+}
+
+.odsjek-menu li:hover>a {
+  color: white;
+}
+
+.odsjek-menu li:has(ul)>a {
+  position: relative;
+  padding-left: 0 10px;
+}
+
+.odsjek-menu li:has(ul)>a::after {
+  content: url("../images/menu_arrow.svg");
+  position: absolute;
+  right: 10px;
+  top: 22px;
+  width: 12px;
+}
+
+.odsjek-menu li:hover:has(ul)>a::after {
+  content: url("../images/menu_arrow_selected.svg");
+  position: absolute;
+  right: 10px;
+  top: 22px;
+  width: 28px;
+}
+
+/* Submenus (second and third level) */
+.odsjek-menu li ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  display: none;
+  background: white;
+  border: 1px solid #ccc;
+  width: 340px;
+  z-index: 1000;
+}
+
+.odsjek-menu li:hover>ul {
+  display: block;
+}
+
+.odsjek-menu li ul li a {
+  color: black;
+}
+
+/* Submenu item hover */
+.odsjek-menu li ul li:hover {
+  background: black;
+}
+
+.odsjek-menu li ul li:hover>a {
+  color: white;
+}
+
+.odsjek-menu.hidden {
+  /*display: none;*/
+}
+
+.odsjek-menu.visible {
+  display: flex;
+}

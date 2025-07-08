@@ -68,9 +68,17 @@
 }
 
 .department-menu-item {
+    cursor: pointer;
     font-size: 16px;
     border: 2px solid grey;
     border-top: none;
     text-align: center;
     width: 152px;
+    height: 40px;
+    align-content: center;
+}
+
+.department-menu-item:hover {
+  background: black;
+  color: white;
 }
