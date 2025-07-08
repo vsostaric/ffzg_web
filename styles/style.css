@@ -127,3 +127,18 @@ body {
 .hidden {
     visibility: hidden;
 }
+
+.line {
+    border: none;
+    border-top: 2px solid grey;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}

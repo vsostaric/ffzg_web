@@ -1,5 +1,7 @@
 .odsjek-menu {
-  margin-left: 589px;
+  position: absolute;
+  margin-left: 523px;
+  margin-top: 41px;
   top: 0px;
   left: 66px;
   width: 340px;
@@ -85,10 +87,6 @@
 
 .odsjek-menu li ul li:hover>a {
   color: white;
-}
-
-.odsjek-menu.hidden {
-  /*display: none;*/
 }
 
 .odsjek-menu.visible {

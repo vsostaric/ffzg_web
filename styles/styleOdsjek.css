@@ -9,15 +9,15 @@
 }
 
 .left-section {
-  flex: 0 0 20%;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+    flex: 0 0 20%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .left-section img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .left-content-subtitle-large {
@@ -56,12 +56,13 @@
 }
 
 .department {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .department-menu {
+    position: relative;
     border-top: 2px solid black;
     display: flex;
     justify-content: space-between;
@@ -79,6 +80,27 @@
 }
 
 .department-menu-item:hover {
-  background: black;
-  color: white;
+    background: black;
+    color: white;
+}
+
+.department-content-container {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.department-content {
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.department-content p {
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 24px;
+}
+
+.department-content-line {
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
